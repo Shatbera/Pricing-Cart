@@ -1,0 +1,129 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  h2, h4, p{
+    margin: 0;
+  }
+  
+  *, *:before, *:after{
+    box-sizing: inherit;
+  }
+  
+  body{
+    background-color: hsl(204, 43%, 93%);
+  }
+  
+  #card{
+    background-color: white;
+    border-radius: 10px;
+    width: 590px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  
+  #card, button{
+    box-shadow: 3px 4px 13px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 4px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 13px 0px rgba(0,0,0,0.75);
+  }
+  
+  #top-section{
+    width: 100%;
+    height: 45%;
+  }
+  
+  #bottom-section{
+    width: 100%;
+    height: 55%;
+    color: white;
+  }
+  
+  #bottom-left-section, #bottom-right-section{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    padding: 20px;
+  }
+  #bottom-left-section, #bottom-right-section, #top-section{
+    padding: 30px;
+  }
+  
+  #bottom-left-section{
+    background-color: #2ab2af;
+  }
+  
+  #bottom-right-section{
+    background-color: #39bdba;
+  }
+  
+  #top-section h2{
+    color: #2ab2af;
+    margin-bottom: 17px;
+  }
+  
+  #top-section h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+  }
+  
+  #top-section p{
+    color: #98a6bd;
+    line-height: 1.2rem;
+  }
+  
+  button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 23px;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    background-color: #7D9121;
+    transform: scale(1.03);
+  }
+  
+  button:active{
+    background-color: #37400F;
+  }
+  
+  #price{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+  }
+  
+  #bottom-left-section h4{
+    margin-bottom: 15px;
+  }
+  
+  #price-frequency, #price{
+    display: inline-block;
+  }
+  
+  #price-frequency{
+    opacity: 0.7;
+    position: relative;
+    font-size: 0.8rem;
+    top: -3px;
+  }
+  
+  ul{
+    padding: 0;
+    list-style: none;
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
